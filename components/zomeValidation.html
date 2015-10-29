@@ -1,0 +1,9 @@
+<div>
+  <div class="form-group">
+    <label>Calculer les coordonnées de tous les points du zome</label>
+    <button class="btn btn-default" ng-click="zomeValidation.computeCoordinate()">Lancer le calcul</button>
+  </div>
+  <ul>
+    <li ng-repeat="step in zomeValidation.steps"><strong>{{step.desc}}</strong> : {{step.done}}</li>
+  </ul>
+</div>
